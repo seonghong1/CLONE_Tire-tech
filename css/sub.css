@@ -1,0 +1,242 @@
+.product_container{
+
+}
+.keyVisual{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    min-height: 110px;
+    background-color: #eeeeee;
+    margin-top: 55px;
+}
+.keyVisual .title{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    top: 25px;
+    
+}
+.keyVisual .title h1{
+   
+    font-size: 48px;
+    font-weight: 500;
+}
+.keyVisual .visual{
+    position: absolute;
+    top: -60px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #eeeeee;
+}
+.keyVisual .visual img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+.sub_nav{
+    border-bottom: 1px solid #e0e0e0;
+}
+.sub_nav .container{
+    width: 1092px;
+    margin: auto;
+    
+}
+.sub_nav .container table{
+    margin: 0 auto;
+}
+.sub_nav .container table tr{
+
+}
+.sub_nav .container table td:first-child br{
+display: none;
+}
+.sub_nav .container table td{
+padding: 0 20px;
+}
+.sub_nav .container table td a{
+    margin-bottom: -3px;
+}
+.sub_nav .container table td.active{
+    border-bottom: 1px solid #812990;
+}
+.sub_nav .container table td.active a{
+    color:#812990;
+
+    font-weight: 500;
+    position: relative;
+}
+.sub_nav .container table td.active a::after{
+    content: "";
+    display: block;
+    background-image: url(../img/icon_snb_arr.png);
+    position: absolute;
+    width: 22px;
+    height: 5px;
+    bottom: -5px;
+    left: calc(50% - 11px);
+}
+.sub_nav .container table a{
+    display: inline-block;
+    padding: 10px;
+    color: #636363;
+    font-weight: 300;
+}
+
+.content_wrap{
+
+}
+.content_wrap .container{
+    width: 1092px;
+    margin: auto;
+    position: relative;
+}
+.product_cont{
+    padding: 70px 20px;
+}
+.product_title{
+
+}
+.product_title strong{ 
+    color: #414042;
+    font-size: 34px;
+    display: block;
+    margin-bottom: 10px;
+}
+.product_title span{
+    display: block;
+    color: #58595b;
+    font-weight: 300;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+.sns_btn{
+    position: absolute;
+    right: 0;
+    top: 70px;
+    display: inline-block;
+    color: #ccc;
+    font-size: 11px;
+    font-weight: 300;
+}
+.sns_btn a{
+    
+}
+.sns_btn img{
+    
+}
+.title_images{
+
+}
+.title_images img{
+    width: 100%;
+}
+.find_btn_wrap{
+    text-align: center;
+    padding: 50px 0;
+}
+.find_btn_wrap button{
+    border:1px solid #812990;
+    padding: 10px 18px;
+    font-size: 16px;
+    color: #812990;
+    font-weight: 600;
+}
+@media (max-width:1169px){
+    .content_wrap .container{
+        width: 952px;
+    }
+    .sub_nav .container{
+        width: 952px;
+    }
+}
+@media (max-width:991px){
+    .content_wrap .container{
+        width: 712px;
+    }
+    .sub_nav .container{
+        width: 712px;
+    }
+    .sub_nav .container table td:first-child br{
+        display: inline;
+        }
+        .sub_nav .container table td.active{
+            border-bottom: 1px solid white;
+        }
+}
+@media (max-width:768px){
+    .content_wrap .container{
+        width: 100%;
+    }
+    .sub_nav{
+        display: none;
+    }
+    .product_cont{
+        padding: 40px 20px 50px 20px;
+    }
+    .sns_btn{
+        top: 42px;
+        right: 20px;
+    }
+    .print{
+        display: none;
+    }
+    .sns_btn span:nth-of-type(2){
+        display: none;
+    }
+    .product_title strong{
+        font-size: 25px;
+    }
+    .product_title span{
+        font-size: 14px;
+    }
+}
+
+/*product2*/
+ul.product_type_tab{
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+
+
+}
+ul.product_type_tab li{
+    display: inline-block;
+    position: relative;
+    bottom: -22px;
+    background: white;
+    
+}
+ul.product_type_tab a{
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+ul.product_type_tab li:first-of-type a{
+    background: url(../img/sub/ico_all.gif) no-repeat center center;
+    
+    
+}
+
+
+
+
+.product_list2{
+
+}
+.product_item2{
+    border: 1px solid #ccc;
+    background-color: white;
+    width: 340px;
+    height: 420px;
+    margin: 10px;
+}
+.product_wrap{
+
+}

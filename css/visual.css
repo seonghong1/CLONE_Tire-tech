@@ -1,0 +1,23 @@
+/*visual*/
+.visual{
+    text-align: center;
+    /*이미지가 항상 가운데 고정*/
+    }
+    .visual_pc{
+    max-width: 100%;
+    /*화면크기가 줄었을때 이미지 크기도 같이 줄어듬*/
+    }
+    .visual_m{
+    display: none;
+    }
+
+    @media (max-width:991px){
+        .visual_pc{
+           display: none;
+            }
+        .visual_m{
+            display: block;
+            max-width: 100%;
+            margin-top: 60px;
+            }
+    }
